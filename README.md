@@ -2,7 +2,7 @@
 
 A set of math utilities for working with random numbers/arrays.
 
-[![Travis](https://img.shields.io/travis/[username]/[repo].svg)](https://travis-ci.org/[username]/[repo])
+[![Travis](https://img.shields.io/travis/atlassubbed/atlas-random.svg)](https://travis-ci.org/atlassubbed/atlas-random)
 
 ---
 
