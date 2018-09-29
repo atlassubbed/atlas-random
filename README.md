@@ -75,7 +75,7 @@ A uniform shuffle is when you sort the elements randomly and uniformly. You can 
 
 The `shuffle` method uses the Fisher-Yates shuffle algorithm to shuffle your array in-place, meaning your array will be mutated without creating a new array. It is very fast. If you don't want to damage the original array, you could create a copy of your array (e.g. `const copy = [...arr]`), then use the `shuffle` method on the copy.
 
-```
+```javascript
 const { shuffle } = require("atlas-random");
 
 const arr = ["help", "me", "obi-wan", "kenobi", "you’re", "my", "only", "hope"];
@@ -88,7 +88,7 @@ console.log(arr);
 
 Unlike `shuffle`, the insert method can uniformly shuffle an array by inserting all of its elements into a new array. 
 
-```
+```javascript
 const { insert } = require("atlas-random");
 
 const arr = ["help", "me", "obi-wan", "kenobi", "you’re", "my", "only", "hope"];
