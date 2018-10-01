@@ -32,6 +32,7 @@ const shuffle = arr => {
     e = arr[j = int(n--)]
     arr[j] = arr[n], arr[n] = e
   }
+  return arr;
 }
 
 module.exports = { int, insert, sample, shuffle }

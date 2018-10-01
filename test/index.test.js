@@ -42,6 +42,11 @@ describe("int", function(){
 })
 
 describe("insert", function(){
+  it("should return the input", function(){
+    const input = [1,2,3];
+    const result = insert(input, 4);
+    expect(result).to.equal(input);
+  })
   it("should insert an element uniformly across indices when adding it to an existing array", function(){
     const results = {}, el = 5, size = 4
     for (let i = 0; i < NUM_ITER; i++){
@@ -147,6 +152,11 @@ describe("sample", function(){
 })
 
 describe("shuffle", function(){
+  it("should return the input", function(){
+    const input = [1,2,3];
+    const result = shuffle(input);
+    expect(result).to.equal(input);
+  })
   it("should uniformly distribute the elements accross indices", function(){
     const results = {}, ix = (e, i) => i, size = 5
     for (let i = 0; i < size; i++) results[i] = {};
